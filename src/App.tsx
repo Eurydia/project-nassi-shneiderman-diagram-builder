@@ -1,10 +1,10 @@
 import { FC } from "react";
-import { Pattern, Algo } from "./structograms/DifferentAges";
+import { Test } from "./examples/test";
 
 export const App: FC = () => {
-  return (
-    <div className="structogram">
-      <Pattern />
-    </div>
-  );
+	return (
+		<div className="structogram">
+			<Test />
+		</div>
+	);
 };
